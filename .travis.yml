@@ -19,7 +19,6 @@ rvm:
   - 2.2.3
   - 2.2.4
   - 2.3.0
-  - jruby-9000
   - rbx-2
   - ruby-head
   - jruby-head
@@ -28,4 +27,3 @@ matrix:
   allow_failures:
     - rvm: ruby-head
     - rvm: jruby-head
-    - rvm: jruby-9000 # See https://github.com/department-of-veterans-affairs/connect_vbms/issues/15 and https://github.com/rvm/rvm/issues/3475
